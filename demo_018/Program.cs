@@ -5,7 +5,7 @@
 System.Console.WriteLine("Введите номер четверти: ");
 int q = Convert.ToInt32(Console.ReadLine());
 
-string[] array = { "x > 0, y > 0", "x < 0 , y > 0", "x < 0, y < 0", "x > 0, y < 0", "Такой четверти нет" };
+string [] array = { "x > 0, y > 0", "x < 0 , y > 0", "x < 0, y < 0", "x > 0, y < 0", "Такой четверти нет" };
 
 
 if (q == 1)
